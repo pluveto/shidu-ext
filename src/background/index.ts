@@ -101,7 +101,7 @@ function report({ url, domain, startTime, duration }: WebpageUsage) {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({
-				url,
+				// url,
 				domain,
 				startTime: new Date(startTime),
 				// TimeSpan (HH:mm:ss format)
